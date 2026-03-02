@@ -1,7 +1,7 @@
 class Aivo < Formula
   desc "Run Claude Code, Gemini, and Codex with any API provider"
   homepage "https://github.com/yuanchuan/aivo"
-  version "0.4.1"
+  version "0.4.2"
   license "MIT"
 
   on_macos do
