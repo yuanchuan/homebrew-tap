@@ -1,16 +1,9 @@
 # homebrew-tap
 
-Homebrew tap for tools by [yuanchuan](https://github.com/yuanchuan).
+## [aivo](https://github.com/yuanchuan/aivo)
 
-## Usage
+Run Claude Code, Gemini, and Codex with any API provider.
 
 ```bash
-brew tap yuanchuan/tap
-brew install <formula>
+brew install yuanchuan/tap/aivo
 ```
-
-## Formulae
-
-| Formula | Description |
-|---|---|
-| [aivo](https://github.com/yuanchuan/aivo) | Run Claude Code, Gemini, and Codex with any API provider |
