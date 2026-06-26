@@ -1,28 +1,28 @@
 class Aivo < Formula
   desc "Run Claude Code, Gemini, and Codex with any API provider"
   homepage "https://github.com/yuanchuan/aivo"
-  version "0.32.1"
+  version "0.32.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://getaivo.dev/dl/v#{version}/aivo-darwin-arm64"
-      sha256 "de8b16381bfca5dcd070cad4dea06f3195bbc671e2ff9b6bcb49bdd20cf9c6cd"
+      sha256 "fbfadb43958e057413bc56c5664cc09fa22de08d12cfb5958e442dfa1c43c9b5"
     end
     on_intel do
       url "https://getaivo.dev/dl/v#{version}/aivo-darwin-x64"
-      sha256 "d1f17ab6368d189aefd29022f3a75752d68e924909864caa60efeb6def150ab6"
+      sha256 "5782f7dd71e9a8042a2f96885dc1113172b02ac1c966f8b9a22d6f9b6d812842"
     end
   end
 
   on_linux do
     on_arm do
       url "https://getaivo.dev/dl/v#{version}/aivo-linux-arm64"
-      sha256 "41aa177fedfaacb7d9720cdd276764c996624c05fa9d850068792be995028f9b"
+      sha256 "c0bceda56a45c75c307a4b7a3de55f2a3940f83af2209390951b28add1638047"
     end
     on_intel do
       url "https://getaivo.dev/dl/v#{version}/aivo-linux-x64"
-      sha256 "64e0c3a823019c0497157e0f755b8a2241aefd4eafadf9f0f29e327172ffb0a1"
+      sha256 "89d4ca9f55e7118e94de13db665d3766df5f50e9ffda0b142b6371f6292e25eb"
     end
   end
 
